@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ssam Jang</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="overlay">
+        <h1>Ssam Jang</h1>
+        <nav>
+          <h2 id="menu">Menu</h2>
+          <h2 id="order-form">Order Form</h2>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="menu-container">
+        <h2>Menu</h2>
+        <div class="articles-container">
+          <article>
+            <img src="ssam.avif" width="200vh" />
+            <h3>Ssam</h3>
+            <p>
+              Served with pickled onion&garlic, lettuce, rice and
+              ssamjang(chimichurri only for tofu) your choice of protein: beef,
+              spicy pork belly, soy pork belly, spicy chicken, tofu, plain pork
+              belly <b><i>$28</i></b>
+            </p>
+          </article>
+          <article>
+            <img src="dwaeji.avif" width="200vh" />
+            <h3>Dwaeji-Gukbap</h3>
+            <p>
+              Slow cooked pork belly soup with rice <b><i>$25</i></b>
+            </p>
+          </article>
+          <article>
+            <img src="bibimbap.avif" width="200vh" />
+            <h3>Beef Bibimbap</h3>
+            <p>
+              Mixed Rice with Various Vegetables, Beef Mince, Fried Egg and
+              Chilli Paste <b><i>$24</i></b>
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <div class="order-container">
+        <h2>Place Your Order</h2>
+        <form>
+          <div class="form-group">
+            <label for="main-meal">Main Meal:</label>
+            <input type="number" required />
+          </div>
+
+          <div class="form-group">
+            <div class="radio-group">
+              <label for="main-meal">Add sides - Fries and Drink for $4?</label>
+              <input type="radio" id="yes" value="1" required />
+              <label for="yes">Yes</label>
+              <input type="radio" id="no" value="0" required />
+              <label for="no">No</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="textarea-group">
+              <label for="Special">Special Request: </label>
+              <textarea></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
+      <footer>
+        <p>Made with love by @minttyy89</p>
+      </footer>
+    </main>
+  </body>
+</html>
