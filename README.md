@@ -5,4 +5,4 @@
 This is intended for final project on HTML in Codedex. (https://www.codedex.io/html)
 
 ## Preview
-![preview of page](/restaurant-menu.png)
+![preview of page](images/restaurant-menu.png)
